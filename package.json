@@ -6,19 +6,33 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "start-ngrok": "ts-node src/scripts/ngrok.ts"
   },
   "dependencies": {
+    "@langchain/cohere": "^0.0.10",
+    "@langchain/community": "^0.2.4",
+    "@langchain/mongodb": "^0.0.3",
+    "cohere-ai": "^7.10.2",
+    "langchain": "^0.2.3",
+    "mongodb": "^6.7.0",
+    "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "telegraf": "^4.16.3",
+    "youtube-transcript": "^1.2.1",
+    "youtubei.js": "^9.4.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "dotenv": "^16.4.5",
+    "envfile": "^7.1.0",
     "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "eslint-config-next": "14.2.3",
+    "ngrok": "^5.0.0-beta.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
   }
 }
